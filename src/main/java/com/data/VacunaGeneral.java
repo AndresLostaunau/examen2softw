@@ -43,7 +43,7 @@ public class VacunaGeneral {
 
     public void genInfo(){
         var sum = 0;
-        var sum_real = 0;
+        var sum_real = 1;
         for(CentroVacuna cv: listaCentros){
             sum+=cv.getNumPersonas();
             sum_real+=cv.getNumMaxPersonas();

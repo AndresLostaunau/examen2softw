@@ -158,10 +158,11 @@ iterator()2java.util.ArrayList#iterator()Ljava/util/Iterator;I
 spliterator()8java.util.ArrayList#spliterator()Ljava/util/Spliterator;1
 isClear([JI)!java.util.ArrayList#isClear([JI)Zk
 )writeObject(Ljava/io/ObjectOutputStream;)>java.util.ArrayList#writeObject(Ljava/io/ObjectOutputStream;)V%
-size()java.util.ArrayList#size()Iê
+size()java.util.ArrayList#size()I”
 com.data.CentroVacunajava.lang.Object;
 getNumPersonas()'com.data.CentroVacuna#getNumPersonas()I)
-print()com.data.CentroVacuna#print()V1
+print()com.data.CentroVacuna#print()VA
+getNumMaxPersonas()*com.data.CentroVacuna#getNumMaxPersonas()I1
 getDeAlta()"com.data.CentroVacuna#getDeAlta()ZQ
 <init>(Ljava/lang/String;I)2com.data.CentroVacuna#<init>(Ljava/lang/String;I)VB
 getNombre()3com.data.CentroVacuna#getNombre()Ljava/lang/String;3
@@ -257,7 +258,10 @@ ulogp(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Th
 Elog(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)_java.util.logging.Logger#log(Ljava/util/logging/Level;Ljava/lang/String;Ljava/lang/Throwable;)V{
 com.Appjava.lang.Object
 <init>()com.App#<init>()V?
-main([Ljava/lang/String;)"com.App#main([Ljava/lang/String;)V»
+main([Ljava/lang/String;)"com.App#main([Ljava/lang/String;)VÑ
+com.business.ConsoleUIjava.lang.Object,
+<init>() com.business.ConsoleUI#<init>()V*
+start()com.business.ConsoleUI#start()V»
 java.util.Iteratorjava.lang.Objectv
 /forEachRemaining(Ljava/util/function/Consumer;)Cjava.util.Iterator#forEachRemaining(Ljava/util/function/Consumer;)V(
 remove()java.util.Iterator#remove()V+

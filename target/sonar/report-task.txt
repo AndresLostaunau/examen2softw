@@ -1,0 +1,7 @@
+organization=andreslostaunau
+projectKey=AndresLostaunau_examen2softw
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.22079
+dashboardUrl=https://sonarcloud.io/dashboard?id=AndresLostaunau_examen2softw
+ceTaskId=AXrkuMX7r7WCwZj2bvRY
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXrkuMX7r7WCwZj2bvRY

@@ -1,0 +1,406 @@
+
+com.business.ConsoleUI#start()Ve
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java ("16*‹
+13e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java ("o
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java (
+""*»
+14e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java (ºπ
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java (0
+
+%12int"java.lang.String#length()I*
+
+usernamejava.lang.String2length()«ƒ
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java (5
+%13char"java.lang.String#charAt(I)C*
+
+passwordjava.lang.String*
+""2	charAt(I)«ƒ
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java9 (K
+%14char"java.lang.String#charAt(I)C*
+
+usernamejava.lang.String*
+""2	charAt(I)*
+13
+15*≥
+3e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java0 0(ô
+ñ
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java0 0(
+%45java.util.logging.Logger"__id*
+""àÖ
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java0 0(9
+%46void"2java.util.logging.Logger#info(Ljava/lang/String;)V*!
+
+%45java.util.logging.Logger*
+Ingrese nombre del local: 2info(Ljava/lang/String;)ﬂ‹
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java1 1(,
+%47java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*
+
+scannerjava.util.Scanner2
+nextLine()§
+°
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java1 1(-
+nomjava.lang.String"__id*
+
+%47java.lang.Stringô
+ñ
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java2 2(
+%48java.util.logging.Logger"__id*
+""èå
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java2 2(@
+%49void"2java.util.logging.Logger#info(Ljava/lang/String;)V*!
+
+%48java.util.logging.Logger*%#
+!Cantidad de personas ya vacunadas2info(Ljava/lang/String;)ﬂ‹
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java3, 3(>
+%50java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*
+
+scannerjava.util.Scanner2
+nextLine()Ÿ
+÷
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java3 3(?
+
+%51int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
+java.lang.Integer*
+
+%50java.lang.Stringó
+î
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java4 4(
+%52com.data.VacunaGeneral"__id*
+""áÑ
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java4 4(,
+%53void"0com.data.VacunaGeneral#add(Ljava/lang/String;I)V*
+
+%52com.data.VacunaGeneral*
+
+nomjava.lang.String*
+""2add(Ljava/lang/String;I)*
+10
+0*∑
+15e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java (ºπ
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java (,
+
+%11int"java.lang.String#length()I*
+
+usernamejava.lang.String2length()*
+14
+10
+0*¨
+16e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java# ()ì
+ê
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java# (,
+%0java.io.InputStream"__id*
+""ñì
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java ("
+%1java.util.Scanner"java.util.Scanner⁄
+◊
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java (-
+%2"0java.util.Scanner#<init>(Ljava/io/InputStream;)V*
+
+%1java.util.Scanner*
+
+%0java.io.InputStream©
+¶
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java (.
+scannerjava.util.Scanner"__id*
+
+%1java.util.Scannerò
+ï
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java (
+%3java.util.logging.Logger"__id*
+""˙˜
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java ($
+
+%4void"2java.util.logging.Logger#info(Ljava/lang/String;)V* 
+
+%3java.util.logging.Logger*
+Inicio Sesi√≥n2info(Ljava/lang/String;)ò
+ï
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java (
+%5java.util.logging.Logger"__id*
+""àÖ
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java (3
+
+%6void"2java.util.logging.Logger#info(Ljava/lang/String;)V* 
+
+%5java.util.logging.Logger* 
+Ingresar nombre en consola: 2info(Ljava/lang/String;)ﬁ€
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java ()
+%7java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*
+
+scannerjava.util.Scanner2
+nextLine()®
+•
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java (*
+usernamejava.lang.String"__id*
+
+%7java.lang.Stringò
+ï
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java (
+%8java.util.logging.Logger"__id*
+""çä
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java (7
+
+%9void"2java.util.logging.Logger#info(Ljava/lang/String;)V* 
+
+%8java.util.logging.Logger*%#
+!Ingresar contrase√±a en consola: 2info(Ljava/lang/String;)ﬂ‹
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java ()
+%10java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*
+
+scannerjava.util.Scanner2
+nextLine()©
+¶
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java (*
+passwordjava.lang.String"__id*
+
+%10java.lang.String*
+15*÷
+5e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java. .(ó
+î
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java. .(
+%43com.data.VacunaGeneral"__id*
+""∆√
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java. .('
+%44void"!com.data.VacunaGeneral#genInfo()V*
+
+%43com.data.VacunaGeneral2	genInfo()*
+10
+0*û	
+7e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java* *(ô
+ñ
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java* *(
+%38java.util.logging.Logger"__id*
+""˙˜
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java* *(/
+%39void"2java.util.logging.Logger#info(Ljava/lang/String;)V*!
+
+%38java.util.logging.Logger*
+Dar de alta?2info(Ljava/lang/String;)ﬂ‹
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java+2 +(D
+%40java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*
+
+scannerjava.util.Scanner2
+nextLine()Ÿ
+÷
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java+! +(E
+
+%41int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
+java.lang.Integer*
+
+%40java.lang.String—Œ
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java+ +(K
+%42void"#com.data.CentroVacuna#setDeAlta(Z)V*
+
+cvcom.data.CentroVacuna*
+""2setDeAlta(Z)*
+10
+0*°	
+8e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java& &(ô
+ñ
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java& &(
+%33java.util.logging.Logger"__id*
+""˝˙
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java& &(2
+%34void"2java.util.logging.Logger#info(Ljava/lang/String;)V*!
+
+%33java.util.logging.Logger*
+1. Dar de baja?2info(Ljava/lang/String;)ﬂ‹
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java'2 '(D
+%35java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*
+
+scannerjava.util.Scanner2
+nextLine()Ÿ
+÷
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java'! '(E
+
+%36int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
+java.lang.Integer*
+
+%35java.lang.String—Œ
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java' '(K
+%37void"#com.data.CentroVacuna#setDeAlta(Z)V*
+
+cvcom.data.CentroVacuna*
+""2setDeAlta(Z)*
+10
+0*⁄
+9e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java! !(ó
+î
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java! !(
+%25com.data.VacunaGeneral"__id*
+""¬ø
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java! !(%
+%26void"com.data.VacunaGeneral#print()V*
+
+%25com.data.VacunaGeneral2print()ﬂ‹
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java"/ "(A
+%27java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*
+
+scannerjava.util.Scanner2
+nextLine()Ÿ
+÷
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java" "(B
+
+%28int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
+java.lang.Integer*
+
+%27java.lang.Stringó
+î
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java# #(&
+%29com.data.VacunaGeneral"__id*
+""ÔÏ
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java# #(3
+%30com.data.CentroVacuna"4com.data.VacunaGeneral#get(I)Lcom/data/CentroVacuna;*
+
+%29com.data.VacunaGeneral*
+""2get(I)≠
+™
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java# #(4
+cvcom.data.CentroVacuna"__id*
+
+%30com.data.CentroVacunaøº
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java$ $(
+%31void"com.data.CentroVacuna#print()V*
+
+cvcom.data.CentroVacuna2print() «
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java% %(!
+%32boolean""com.data.CentroVacuna#getDeAlta()Z*
+
+cvcom.data.CentroVacuna2getDeAlta()*
+7
+8*º
+10e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java (ô
+ñ
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java (
+%15java.util.logging.Logger"__id*
+""Ä˝
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java (-
+%16void"2java.util.logging.Logger#info(Ljava/lang/String;)V*!
+
+%15java.util.logging.Logger*
+1. Revisar centro.2info(Ljava/lang/String;)ô
+ñ
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java (
+%17java.util.logging.Logger"__id*
+""ÜÉ
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java (2
+%18void"2java.util.logging.Logger#info(Ljava/lang/String;)V*!
+
+%17java.util.logging.Logger*
+2. Informaci√≥n general.2info(Ljava/lang/String;)ô
+ñ
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java (
+%19java.util.logging.Logger"__id*
+""˛˚
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java (+
+%20void"2java.util.logging.Logger#info(Ljava/lang/String;)V*!
+
+%19java.util.logging.Logger*
+3. Crear centro.2info(Ljava/lang/String;)ô
+ñ
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java (
+%21java.util.logging.Logger"__id*
+""˛˚
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java (+
+%22void"2java.util.logging.Logger#info(Ljava/lang/String;)V*!
+
+%21java.util.logging.Logger*
+4. Cerrar Sesion2info(Ljava/lang/String;)ﬂ‹
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java) (;
+%23java.lang.String".java.util.Scanner#nextLine()Ljava/lang/String;*
+
+scannerjava.util.Scanner2
+nextLine()Ÿ
+÷
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java (<
+
+%24int"/java.lang.Integer#parseInt(Ljava/lang/String;)I*"
+java.lang.Integer*
+
+%23java.lang.String*
+3
+5
+9
+10
+0
+1*É
+0 "|
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java9 9(
+implicit return*€
+1e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java6 6("o
+e
+[C:/Users/alost/OneDrive/Escritorio/e/examen2softw/src/main/java/com/business/ConsoleUI.java6 6(
+""B
+com.business.ConsoleUI
