@@ -32,7 +32,8 @@ public class VacunaGeneral {
 
     public void print(){
         for(int i = 0; i < listaCentros.size(); i++){
-            logger.log(Level.INFO,"Centro: {}", listaCentros.get(i).getNombre());
+            logger.log(Level.INFO,"Centro: {0}",listaCentros.get(i).getNombre());
+            logger.log(Level.INFO,"Cantidad de vacunados: {0}",listaCentros.get(i).getNumPersonas());
         }
     }
 
@@ -42,10 +43,13 @@ public class VacunaGeneral {
 
     public void genInfo(){
         var sum = 0;
+        var sum_real = 0;
         for(CentroVacuna cv: listaCentros){
             sum+=cv.getNumPersonas();
+            sum_real+=cv.getNumMaxPersonas();
         }
-        logger.log(Level.INFO,"Personas Vacunadas: {}",sum);
+        logger.log(Level.INFO,"Personas vacunadas: {0}",sum);
+        logger.log(Level.INFO,"Porcentaje vacunado: {0}",((float)sum*100)/sum_real);
     }
 
     public void add(String nombre, int num){
