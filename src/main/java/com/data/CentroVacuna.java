@@ -1,5 +1,6 @@
 package com.data;
 
+import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class CentroVacuna {
@@ -32,9 +33,9 @@ public class CentroVacuna {
     }
 
     public void print(){
-        logger.info("Nombre del Centro: "+nombre);
-        logger.info("Cantidad de personas vacunadas"+numPersonas);
-        logger.info("De alta: "+deAlta);
+        logger.log(Level.INFO,"Nombre del Centro: {}", nombre);
+        logger.log(Level.INFO,"Cantidad de personas vacunadas: {}",numPersonas);
+        logger.log(Level.INFO,"De alta: {}",deAlta);
     }
 }
 

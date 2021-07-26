@@ -2,6 +2,7 @@ package com.data;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class VacunaGeneral {
@@ -33,7 +34,7 @@ public class VacunaGeneral {
 
     public void print(){
         for(int i = 0; i < lista_centros.size(); i++){
-            logger.info("Centro "+i+": "+" Cantidad: "+lista_centros.get(i).getNumPersonas());
+            logger.log(Level.INFO,"Centro: {}",lista_centros.get(i).getNombre());
         }
     }
 
@@ -46,6 +47,10 @@ public class VacunaGeneral {
         for(CentroVacuna cv:lista_centros){
             sum+=cv.getNumPersonas();
         }
-        logger.info("Personas Vacunadas: "+sum);
+        logger.log(Level.INFO,"Personas Vacunadas: {}",sum);
+    }
+
+    public void add(String nombre, int num){
+        lista_centros.add(new CentroVacuna(nombre,num));
     }
 }

@@ -9,7 +9,7 @@ public class App {
 
     static final Logger logger = Logger.getLogger(App.class.getName());
 
-    public static VacunaGeneral vacunaGeneral;
+    private static final VacunaGeneral vacunaGeneral = new VacunaGeneral();
 
     public static void main(String[] args){
         var scanner =  new Scanner(System.in);
@@ -26,7 +26,8 @@ public class App {
         while (true){
             logger.info("1. Revisar centro.");
             logger.info("2. Información general.");
-            logger.info("2. Cerrar Sesion");
+            logger.info("3. Crear centro.");
+            logger.info("4. Cerrar Sesion");
             var state = Integer.parseInt(scanner.nextLine());
             if(state == 1){
                 vacunaGeneral.print();
@@ -34,7 +35,9 @@ public class App {
                 vacunaGeneral.get(vcstate).print();
             }else if(state == 2){
                 vacunaGeneral.genInfo();
-            }else if(state == 3){
+            }else if(state == 3) {
+                vacunaGeneral.add("Prueba", 100);
+            } else if(state == 4){
                 return;
             }
         }
