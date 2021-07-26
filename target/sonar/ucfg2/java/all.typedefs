@@ -15,14 +15,15 @@ getClass(),java.lang.Object#getClass()Ljava/lang/Class;5
 notifyAll()java.lang.Object#notifyAll()V"
 wait()java.lang.Object#wait()V*
 
-hashCode()java.lang.Object#hashCode()Iš
+hashCode()java.lang.Object#hashCode()Iè
 com.data.VacunaGeneraljava.lang.Object*
 print()com.data.VacunaGeneral#print()V.
 	genInfo()!com.data.VacunaGeneral#genInfo()V,
 <init>() com.data.VacunaGeneral#<init>()V>
 get(I)4com.data.VacunaGeneral#get(I)Lcom/data/CentroVacuna;0
 
-darBaja(I)"com.data.VacunaGeneral#darBaja(I)V@
+darBaja(I)"com.data.VacunaGeneral#darBaja(I)VL
+add(Ljava/lang/String;I)0com.data.VacunaGeneral#add(Ljava/lang/String;I)V@
 getNumeroCentros()*com.data.VacunaGeneral#getNumeroCentros()I0
 
 darAlta(I)"com.data.VacunaGeneral#darAlta(I)VÖ

@@ -9,48 +9,46 @@ public class VacunaGeneral {
 
     static final Logger logger = Logger.getLogger(VacunaGeneral.class.getName());
 
-    private final List<CentroVacuna> lista_centros;
-    private int total_necesitado;
+    private final List<CentroVacuna> listaCentros;
 
     public VacunaGeneral(){
-        total_necesitado = 1500;
-        lista_centros = new ArrayList<>();
-        lista_centros.add(new CentroVacuna("A",234));
-        lista_centros.add(new CentroVacuna("B",432));
-        lista_centros.add(new CentroVacuna("C",123));
+        listaCentros = new ArrayList<>();
+        listaCentros.add(new CentroVacuna("A",234));
+        listaCentros.add(new CentroVacuna("B",432));
+        listaCentros.add(new CentroVacuna("C",123));
     }
 
     public void darBaja(int index){
-        lista_centros.get(index).setDeAlta(false);
+        listaCentros.get(index).setDeAlta(false);
     }
 
     public void darAlta(int index){
-        lista_centros.get(index).setDeAlta(true);
+        listaCentros.get(index).setDeAlta(true);
     }
 
     public int getNumeroCentros(){
-        return lista_centros.size();
+        return listaCentros.size();
     }
 
     public void print(){
-        for(int i = 0; i < lista_centros.size(); i++){
-            logger.log(Level.INFO,"Centro: {}",lista_centros.get(i).getNombre());
+        for(int i = 0; i < listaCentros.size(); i++){
+            logger.log(Level.INFO,"Centro: {}", listaCentros.get(i).getNombre());
         }
     }
 
     public CentroVacuna get(int index){
-        return lista_centros.get(index);
+        return listaCentros.get(index);
     }
 
     public void genInfo(){
         var sum = 0;
-        for(CentroVacuna cv:lista_centros){
+        for(CentroVacuna cv: listaCentros){
             sum+=cv.getNumPersonas();
         }
         logger.log(Level.INFO,"Personas Vacunadas: {}",sum);
     }
 
     public void add(String nombre, int num){
-        lista_centros.add(new CentroVacuna(nombre,num));
+        listaCentros.add(new CentroVacuna(nombre,num));
     }
 }
